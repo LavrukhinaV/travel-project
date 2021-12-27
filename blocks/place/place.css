@@ -1,9 +1,9 @@
 .place {
-    display: grid; 
-    grid-template-columns: 460px 1fr; 
+    display: grid;
+    grid-template-columns: 460px 1fr;
     grid-template-rows: repeat(2, auto);
-    gap: 48px 40px; 
-    grid-template-areas: 
+    gap: 48px 40px;
+    grid-template-areas:
     "title link"
     "image paragraphs";
     padding-bottom: 80px;
@@ -16,7 +16,7 @@
 @media screen and (max-width: 1184px) {
   .place {
     gap: 48px 32px;
-    grid-template-columns: 440px auto; 
+    grid-template-columns: 440px auto;
   }
 }
 
@@ -35,7 +35,7 @@
   .place {
     gap: 32px;
     grid-template-columns: 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "title"
     "link"
     "image"

@@ -3,7 +3,7 @@
   min-height: 80px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 30px 30px; 
+  grid-template-columns: 1fr 30px 30px;
   grid-template-rows: 1fr;
   padding: 28px 48px 0;
   column-gap: 18px;
