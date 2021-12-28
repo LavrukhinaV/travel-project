@@ -35,7 +35,7 @@
   .place {
     gap: 32px;
     grid-template-columns: 1fr;
-    grid-template-areas:
+    grid-template-areas: 
     "title"
     "link"
     "image"

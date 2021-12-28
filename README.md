@@ -9,7 +9,7 @@
 
 **Github-pages**
 
-* [https://lavrukhinav.github.io/travel-project/index.html](https://lavrukhinav.github.io/travel-project/index.html)
+* [https://lavrukhinav.github.io/travel-project/index.html](https://lavrukhinav.github.io/travel-project)
 
 
 ### __Планы по доработке проекта:__
