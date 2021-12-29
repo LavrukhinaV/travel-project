@@ -2,25 +2,22 @@
   max-width: 1280px;
   min-height: 80px;
   margin: 0 auto;
+  padding: 0 48px;
   box-sizing: border-box;
-  display: grid;
-  grid-template-columns: 1fr 30px 30px;
-  grid-template-rows: 1fr;
-  padding: 28px 48px 0;
-  column-gap: 18px;
-  justify-items: end;
+  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
 @media screen and (max-width: 1023px) {
   .header {
-    padding: 28px 24px 0;
+    padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
     min-height: 58px;
-    padding: 16px 16px 0;
+    padding: 0 16px;
   }
 }
