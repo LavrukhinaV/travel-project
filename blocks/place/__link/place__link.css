@@ -2,9 +2,9 @@
   color: #FFFFFF;
   font-size: 18px;
   line-height: 22px;
+  transition: 2s;
 }
 
 .place__link:hover {
   opacity: 80%;
-  transition: 2s;
 }

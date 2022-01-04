@@ -4,7 +4,6 @@
   line-height: 76px;
   margin: 0;
   grid-area: title;
-  white-space: pre-line;
 }
 
 @media screen and (max-width: 1023px) {
@@ -12,11 +11,13 @@
     font-size: 42px;
     line-height: 46px;
   }
+  .place__title_width_limited {
+    max-width: 97%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .place__title {
-    white-space: nowrap;
     font-size: 32px;
     line-height: 35px;
     margin-left: 16px;
